@@ -17,40 +17,12 @@
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
     android:title="@string/fusion_reactor_title" >
 
-        <!-- Status Bar -->
-        <Preference
-            android:key="statusbar_category"
-            android:title="@string/statusbar_title"
-            android:fragment="com.fusion.reactor.fragments.StatusBarSettings" 
-            android:icon="@drawable/ic_settings_statusbar"/>
-
-        <!-- Quick Settings panel -->
-        <Preference
-            android:key="quicksettings_category"
-            android:title="@string/quicksettings_title"
-            android:fragment="com.fusion.reactor.fragments.QuickSettings"
-            android:icon="@drawable/ic_settings_quicksettings"/>
-
-        <!-- Buttons -->
-        <Preference
-            android:key="buttonsettings_category"
-            android:title="@string/button_title"
-            android:fragment="com.fusion.reactor.fragments.ButtonSettings"
-            android:icon="@drawable/ic_settings_buttons"/>
-
         <!-- Navigation Bar -->
         <Preference
             android:key="navigationbar_category"
             android:title="@string/navbar_title"
             android:fragment="com.fusion.reactor.fragments.NavbarSettings"
             android:icon="@drawable/ic_settings_navbar"/>
-
-        <!-- Gestures -->
-        <Preference
-            android:key="gestures_category"
-            android:title="@string/gestures_title"
-            android:fragment="com.fusion.reactor.fragments.GestureSettings"
-            android:icon="@drawable/ic_settings_gesture"/>
 
         <!-- Lock Screen -->
         <Preference
@@ -59,20 +31,6 @@
             android:fragment="com.fusion.reactor.fragments.LockScreenSettings"
             android:icon="@drawable/ic_settings_lockscreens"/>
 
-        <!-- Power Menu -->
-        <Preference
-            android:key="powermenu__category"
-            android:title="@string/powermenu_title"
-            android:fragment="com.fusion.reactor.fragments.PowerMenuSettings"
-            android:icon="@drawable/ic_settings_powermenu"/>
-
-        <!-- Recents -->
-        <Preference
-            android:key="recents_category"
-            android:title="@string/recents_title"
-            android:fragment="com.fusion.reactor.fragments.RecentsSettings"
-            android:icon="@drawable/ic_settings_recents"/>
-
         <!-- Notifications -->
         <Preference
             android:key="notifications_category"
@@ -80,11 +38,11 @@
             android:fragment="com.fusion.reactor.fragments.NotificationSettings"
             android:icon="@drawable/ic_settings_notification"/>
 
-        <!-- Misc -->
+        <!-- Interface -->
         <Preference
-            android:key="misc_category"
-            android:title="@string/misc_title"
-            android:fragment="com.fusion.reactor.fragments.MiscSettings"
-            android:icon="@drawable/ic_settings_miscs"/>
+            android:key="interface_category"
+            android:title="@string/interface_title"
+            android:fragment="com.fusion.reactor.fragments.Interface"
+            android:icon="@drawable/ic_settings_interface"/>
 
 </PreferenceScreen>
